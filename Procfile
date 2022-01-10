@@ -1,1 +1,1 @@
-web: java -Dspring.profiles.active=prod -Dserver.$port= -jar build/libs/*.jar
+web: java -Dspring.profiles.active=prod -Dserver.$port= -jar build/libs/koctas-backend-0.0.1-SNAPSHOT.jar
