@@ -1,5 +1,5 @@
 {
-  "name": "customer-backend-login",
+  "name": "customer-loginapp",
   "buildpacks": [
     {
       "url": "heroku/gradle"
