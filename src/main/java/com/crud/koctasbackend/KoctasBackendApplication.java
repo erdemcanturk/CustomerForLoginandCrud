@@ -17,9 +17,11 @@ public class KoctasBackendApplication implements CommandLineRunner {
 		SpringApplication.run(KoctasBackendApplication.class, args);
 	}
 
+/*
 
 	@Autowired
 	private ICustomerRepository customerRepository;
+*/
 
 
 	@Override
@@ -27,7 +29,7 @@ public class KoctasBackendApplication implements CommandLineRunner {
 
 
 		//get requestinde gorebilmek icin burada musteri olusturdum.
-	/*	Customer customer1 = new Customer();
+		/*Customer customer1 = new Customer();
 		customer1.setFirstName("erdem");
 		customer1.setLastName("canturk");
 		customer1.setPhoneNum("+90 0543 111 22 33");

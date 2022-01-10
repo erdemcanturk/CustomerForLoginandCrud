@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class Customer {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //primary
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //primary key
     private long id;
 
     @Column(name = "first_name")
